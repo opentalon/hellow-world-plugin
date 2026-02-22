@@ -1,5 +1,7 @@
 # Hello World Plugin
 
+[![CI](https://github.com/opentalon/hello-world-plugin/workflows/CI/badge.svg)](https://github.com/opentalon/hello-world-plugin/actions?query=workflow%3ACI)
+
 Standalone OpenTalon plugin intended as a **content preparer**: run before the first LLM call to transform or guard user input. When the user says "hello", it turns the input into "hello world" plus a random question; otherwise it returns a guard message and no LLM call.
 
 Depends on [github.com/opentalon/opentalon](https://github.com/opentalon/opentalon) `pkg/plugin` SDK only.
